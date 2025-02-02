@@ -10,7 +10,7 @@ def add_task():
     else:
         messagebox.showwarning("Warning", "Please enter a task.")
 
-# Function to mark a task as done
+# Functionto mark a task as done
 def mark_done():
     try:
         selected_task_index = listbox.curselection()[0]
